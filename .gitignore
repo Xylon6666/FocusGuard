@@ -1,0 +1,25 @@
+# 构建中间产物（build.ps1 会在这里生成 .obj / .res / build.bat）
+build/
+
+# 编译器的临时文件
+*.obj
+*.res
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.exp
+*.lib
+
+# 本机运行配置（含绝对路径与个人设置，不入库；程序首次运行会自己生成）
+dist/FocusGuard.ini
+sounds/notification-*.mp3
+
+# 打包产物
+*.zip
+
+# 编辑器 / 系统杂项
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
